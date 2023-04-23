@@ -2,8 +2,15 @@
 <%- include('partials/header') %>
 
 <%- include('partials/nav') %>
-    
-    <h1>This is the about page</h1>
-    <p>The current time is: <%= new Date().toLocaleTimeString() %></p>
+<%- include('partials/containerhead') %>
+
+    <div class="about">
+      <h2>About us</h2>
+      <p>We are a premier quality management solutions provider for various industries. 
+        We make quality products with you and your customer in mind.
+      </p>
+    </div>
+<%- include('partials/containerl') %>
+<%- include('partials/bottom') %>
 
 <%- include('partials/footer') %>

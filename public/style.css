@@ -1,11 +1,33 @@
 body {
     background-color: rgb(52, 51, 49);
     color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 77vh;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(92, 92, 228);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
 }
 
 .nav li {
@@ -21,4 +43,54 @@ body {
 
 .nav li a:hover {
     text-decoration: underline;
+}
+
+.about, .contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    height: 200px;
+    border: 1px solid rgb(189, 189, 215);
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+}
+
+
+.welcome-msg {
+    margin: 50px;
+    max-width: 250px;
+}
+
+.bottom {
+    display: flex;
+    background-color: rgb(92, 92, 228);
+    margin: 0;
+}
+
+.bottom-container {
+    margin: auto;
+    padding: 20px;
+}
+
+.activities {
+    display: flex;
+    margin: auto;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.activities li {
+    padding: 0;
+    width: 120px;
+    margin: 4px 20px;
+    list-style-type: none;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    border: 1px solid green;
 }
